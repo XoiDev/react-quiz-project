@@ -14,3 +14,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.bg-body-tertiary {
+  padding: 20px !important;
+  z-index: 10;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0);
+  .container {
+    .me-auto {
+      .nav-link {
+        &.active {
+          color: #00bfff;
+        }
+      }
+    }
+  }
+}
